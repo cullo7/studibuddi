@@ -1,7 +1,7 @@
 #studibuddi
 
 created by: 
-Julie Kunnumpurath
-Austin Ward
-David Hoover
+Julie Kunnumpurath,
+Austin Ward,
+David Hoover,
 Aiden Cullo
