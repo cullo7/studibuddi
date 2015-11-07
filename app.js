@@ -9,6 +9,10 @@ app.get('/',function(req,res){
   //__dirname : It will resolve to your project folder.
 });
 
+app.get('/loginInfo', function(req, res){
+	res.sendFile(__dirname+'/loginInfo.html');
+});
+
 var port = process.env.PORT || 3000;
 
 app.listen(port);

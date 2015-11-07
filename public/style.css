@@ -7,7 +7,7 @@ body {
 }
 
 .welcome {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Indie Flower', cursive;
     color: black;
     text-align: center;
     margin: 100px 0px -50px 0px;
@@ -16,12 +16,11 @@ body {
 }
 
 .studiBuddi {
-    font-family: 'Poiret One', cursive;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    font-family: 'Indie Flower', cursive;
     color: black;
     text-align: center;
-    font-size: 80px;
-    text-shadow: -1px 0 white, 0 2px white, 2px 0 white, 0 -1px white;
-    
+    font-size: 65px;
 }
 
 a.signUp {
@@ -34,7 +33,7 @@ a.signUp {
     position:absolute; 
     margin-left:-100px;
     margin-top:60px;
-    left: 40%;
+    right: 700px;
     font-size: 2em;
     text-align: center;
     text-decoration: none;
@@ -58,8 +57,8 @@ a.login {
     padding: 8px;
     position:absolute; 
     margin-left:-100px;
-   margin-top: 75px; 
-    right:35%;
+   margin-top: 65px; 
+    left: 700px;
     font-size: 2em;
     text-align: center;
     text-decoration: none;
