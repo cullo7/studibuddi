@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+	<h1>StudiBuddi</h1>
+	<title>StudiBuddi</title>
+	<style>
+		head {
+			text-align: center;
+			color: white;
+			background: #1fbad6
+			background-size: contain;
+		}
+		body {
+			font-family: Times New Roman, serif;
+			background: URL("http://previews.123rf.com/images/rabbit75123/rabbit751231207/rabbit75123120700100/14361178-New-York-City-Manhattan-street-aerial-view-black-and-white-with-skyscrapers-pedestrian-and-busy-traf-Stock-Photo.jpg");
+			background-size: cover;
+			text-align: center;
+			color: white;
+			font-variant: small-caps;
+			font-style: oblique;
+			font-size: 36px;
+		}	
+		button {
+			text-align: center;
+			border: 25px solid rgba(0 0 0 0.5);
+			padding: 10px 20px 10px 20px;
+			font-size: 22px;
+			width: 150px;
+			color: #1fbad6;
+			margin: 20px;
+			background: #161629;
+		}
+		ul {
+			list-style-type: none;
+			padding: 20px 0px 20px 0px;
+		li {
+			display: block;
+			padding: 20px 0px 20px 0px;
+		}
+	</style>
+	</head>
+	<body>
+		<ul>
+			<li><button>Map</button></li>
+			<li><button>Search</button></li>
+			<li><button>Create</button></li>
+			<li><button>Profile</button></li>
+			<li><button>Options</button></li>
+		</ul>
+		<i>Created by HackBU, Yhack 2015</i>
+	</body>
+	</html>
