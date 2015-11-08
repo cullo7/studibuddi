@@ -53,11 +53,11 @@ a.login {
     border: 1px solid #f5f5f5;
     border-radius: 5px;
     display: inline-block;
-    width: 200px;
+    width: 300px;
     padding: 8px;
     position:absolute; 
     margin-left:-100px;
-   margin-top: 65px; 
+    margin-top: 65px; 
     left: 700px;
     font-size: 2em;
     text-align: center;
@@ -72,6 +72,7 @@ a.login:hover, a.login:focus {
     transition: color 0.5s ease-in, background-color 0.5s ease-in;
     -webkit-transition: color 0.5s ease-in, background-color 0.5s ease-in;
 }
+
 
 .buttons {
     display: inline-block;
