@@ -17,7 +17,7 @@ var port = process.env.PORT || 3000;
 
 app.listen(port);
 
-console.log("Running at Port 3000");
+console.log("Running[hey] at Port 3000");
 
 // need to use ejs to make templates. templates are NOT STATIC. similar to 
 // how you use <?php echo $namevar ?> to fill in a value based on who 
