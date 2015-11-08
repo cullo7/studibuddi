@@ -13,17 +13,25 @@ app.get('/loginInfo', function(req, res){
 	res.sendFile(__dirname+'/loginInfo.html');
 });
 
-app.get('/profile_page', function(req, res){
+app.get('/profile', function(req, res){
 	res.sendFile(__dirname+'/profile_page.html');
 });
 
-app.post('/profile_page', function(req, res){
+app.post('/profile', function(req, res){
 	res.sendFile(__dirname+'/profile_page.html');
 });
 
-app.post('/index.html',function(req,res){
+app.get('/index',function(req,res){
   res.sendFile(__dirname+'/index.html');
   //__dirname : It will resolve to your project folder.
+});
+
+app.get('/search', function(req, res){
+	res.sendFile(__dirname+'/search.html');
+});
+
+app.post('/selection_page', function(req, res){
+	res.sendFile(__dirname+'/selection_page.html');
 });
 
 var port = process.env.PORT || 3000;

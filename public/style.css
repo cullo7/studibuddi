@@ -81,3 +81,18 @@ a.login:hover, a.login:focus {
     padding: 0px;
 }
 
+#search
+{
+    display: inline-block;
+}
+
+#profile
+{
+    display: inline-block;
+}
+
+#index
+{
+    display: inline-block;
+}
+
