@@ -13,6 +13,19 @@ app.get('/loginInfo', function(req, res){
 	res.sendFile(__dirname+'/loginInfo.html');
 });
 
+app.get('/profile_page', function(req, res){
+	res.sendFile(__dirname+'/profile_page.html');
+});
+
+app.post('/profile_page', function(req, res){
+	res.sendFile(__dirname+'/profile_page.html');
+});
+
+app.post('/index.html',function(req,res){
+  res.sendFile(__dirname+'/index.html');
+  //__dirname : It will resolve to your project folder.
+});
+
 var port = process.env.PORT || 3000;
 
 app.listen(port);
