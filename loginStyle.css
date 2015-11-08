@@ -1,0 +1,50 @@
+body {
+    background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+    display: inline block;
+    margin-top: -70px;
+}
+
+.login {
+    color: rgba(100,100,100,.8);
+    border: 3px;
+    padding: 10px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.loginTitle {
+    font-family: 'Poiret One', cursive;
+    font-size: 72px;
+    padding: 4px;
+}
+
+.signUp {
+    font-family: 'Poiret One', cursive;
+    color: rgba(100,100,100, 1);
+    border: 3px;
+    padding: 10px;
+    position: relative; 
+    font-size: 20px;
+}
+
+.signUpTitle {
+    font-family: 'Poiret One', cursive;
+    font-size: 72px;
+    padding: 4px;
+}
+
+input {
+    border: 2px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Poiret One', cursive;
+}
+
